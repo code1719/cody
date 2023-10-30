@@ -3,70 +3,151 @@ body {
   font-family: sans-serif;
   text-align: center;
   color: white;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
 }
 
 nav {
-    background-color: darkred;
-    position: sticky;
+  background-color: darkred;
+  position: sticky;
 }
 
 nav ul {
   white-space: nowrap;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0;
+  list-style: none;
 }
 
 nav li {
-    width: 20%;
-    display: inline-block;
-    font-size: 25px;
-    margin-bottom: 9px;
+  width: 20%;
+  display: inline-block;
+  font-size: 25px;
+  margin-bottom: 9px;
 }
 
 nav li a {
-    color: black;
-    padding: 1px;
-    border-radius: 25px;
+  color: black;
+  padding: 1px;
+  border-radius: 25px;
+}
 
+p {
+  font-size: 17px;
+  background-color: darkgray;
+  color: black;
+  margin: 20px;
+  padding: 20px;
+  display: inline-block;
+  border-color: solid black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px red;
 }
 
 img {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
 }
 
 img:hover {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .img-marissa {
-    position: relative;
-    max-width: 500px;
+  position: relative;
+  max-width: 500px;
 }
 
 .column {
-    float: left;
-    width: 33.33%;
-    text-align: left;
-    margin: 10px; 
+  float: left;
+  width: 30%;
+  text-align: left;
+  margin: 10px;
+}
+
+.about-column {
+  display: inline-block;
+  padding: 0.5em;
+  display: block;
+  width: 30%;
+}
+
+.about-column img {
+
+  max-width: 300px;
+  max-height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .insp-column {
-    float: left;
-    width: 33.33%;
-    text-align: center;
+  display: inline-block;
+  padding: 0.5em;
+  display: block;
+  width: 33.333%;
+  box-sizing: border-box;
+}
+
+.insp-img {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 2px white;
+}
+
+.bio-pic {
+  max-width: 400px;
+  max-height: auto;
 }
 
 div.quote {
-    font-size: 20px;
-    background-color: gray;
-    color: white;
-    margin: 20px;
-    padding: 20px;
-    display: inline-block;
-    border-color: solid gray;
-    border-radius: 10px;
+  font-size: 20px;
+  background-color: darkgray;
+  color: black;
+  margin: 20px;
+  padding: 20px;
+  display: inline-block;
+  border-color: solid black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px red;
+}
+
+div.quote p {
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  display: inline-block;
+  border-color: solid black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px gray;
+}
+
+.Warren {
+  width: auto;
+  text-align: center;
+  margin: 10px;
+  display: inline-block;
+  padding: 0.5em;
+  display: block;
+  width: 33.33%;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 5px red;
+}
+
+img.warrendeath {
+box-shadow: 5px 5px 2px;
 }
