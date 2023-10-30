@@ -36,6 +36,11 @@ nav li a {
   border-radius: 25px;
 }
 
+nav li button:hover {
+  transform: translate(3px, 8px);
+  transform: rotate(20deg);
+}
+
 p {
   font-size: 17px;
   background-color: darkgray;
@@ -81,7 +86,6 @@ img:hover {
 }
 
 .about-column img {
-
   max-width: 300px;
   max-height: auto;
 }
@@ -149,5 +153,5 @@ div.quote p {
 }
 
 img.warrendeath {
-box-shadow: 5px 5px 2px;
+  box-shadow: 5px 5px 2px;
 }
